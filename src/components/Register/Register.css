@@ -1,0 +1,48 @@
+.login-container {
+    background-color: #f9ffd5;
+    width: 50vw;
+    height: 50vh;
+    border: black;
+    border-style: solid;
+}
+
+.login-header > h1 {
+    font-size: 80px;
+    font-family: 'helvetica';
+}
+.login-header {
+    margin-bottom: -4vh;
+}
+
+.login-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18vh;
+    align-items: left;
+}
+
+input {
+    border-radius: 30px;
+    border-width: 2px;
+    width: 18vw;
+    height: 4vh;
+    background-color: #f9ffd5;
+}
+
+input::placeholder {
+    text-indent: 10px;
+}
+
+.login-inputs > button {
+    width: 70px;
+    border-radius: 7px;
+    background-color: black;
+    color: antiquewhite;
+    margin-left: 5.8vw;
+}
+
+.emails {
+    display: flex;
+    flex-direction: row;
+}
