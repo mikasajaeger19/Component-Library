@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import axios from 'axios'
+import './Submit.css'
 
 const Submit = () => {
   
@@ -43,13 +44,13 @@ const Submit = () => {
     }
 
   return (
-    <div>
+    <div className='submit'>
         <div className='submit-header'>
-            <h1> SUBMIT ABSTRACT</h1>
+            <h1 className='submith1'> SUBMIT </h1><h1 className='abstract'> ABSTRACT</h1>
         </div>
 
         <div className='submit-body'>
-            <div>
+            <div className='fields'>
                 <h2>TITLE</h2>
                 <input 
                     type = 'text'
@@ -58,7 +59,7 @@ const Submit = () => {
                     onChange = {handleChange}
                 />
             </div>
-            <div>
+            <div className='fields'>
                 <h2>DESCRIPTION</h2>
                 <input 
                     type = 'text'
@@ -67,7 +68,7 @@ const Submit = () => {
                     onChange = {handleChange}
                 />
             </div>
-            <div>
+            <div className='fields'>
                 <h2>URL</h2>
                 <input 
                     type = 'text'
@@ -76,7 +77,7 @@ const Submit = () => {
                     onChange = {handleChange}
                 />
             </div>
-            <div>
+            <div className='fields'>
                 <h2>TAGS</h2>
                 <input 
                     type = 'text'
