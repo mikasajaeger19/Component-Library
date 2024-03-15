@@ -7,9 +7,9 @@ import Submit from './components/Submit/Submit';
 function App() {
   return (
     <div className="App">
-      {/* <Card /> */}
+      <Card />
       {/* <Register /> */}
-      <Submit />
+      {/* <Submit /> */}
     </div>
   );
 }

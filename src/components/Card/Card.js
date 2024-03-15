@@ -1,12 +1,12 @@
 import React from 'react'
-import './Card.css'
+import './CardAlt.css'
 const Card = () => {
   return (
     <div className='card'>
       <div className='card-header'>
         <h2>A Thesis On Food Technology</h2>
         <div className='paper-status'>
-            <p>approved</p>
+            <p>APPROVED</p>
         </div>
       </div>
       <div className='card-body'>
