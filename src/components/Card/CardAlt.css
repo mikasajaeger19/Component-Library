@@ -79,9 +79,9 @@
 }
 
 .card-footer {
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+    border-top-style: solid; /* Only top border */
+    border-top-color: black; /* Border color for the top */
+    border-top-width: 1px; /* Border width for the top */
     background-color: #d9d9d9;
     display: flex;
 }
